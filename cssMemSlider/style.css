@@ -191,6 +191,11 @@ h1 {
   transition: 0.5s ease;
 }
 
+.label:active > .btn {
+  background-color: #0094f7;
+  transition: 0.5s ease;
+}
+
 .ctrl1:checked ~ .ctrls .label1 .btn,
 .ctrl2:checked ~ .ctrls .label2 .btn,
 .ctrl3:checked ~ .ctrls .label3 .btn,
